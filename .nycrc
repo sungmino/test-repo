@@ -1,0 +1,20 @@
+{
+    "all": true,
+    "check-coverage": true,
+    "include": [
+        "**/services/**"
+    ],
+    "report-dir": "./coverage",
+    "reporter": [
+        "text",
+        "html"
+    ],
+    "extension": [
+        ".js",
+        ".cjs",
+        ".mjs",
+        ".ts",
+        ".tsx",
+        ".jsx"
+    ]
+}
